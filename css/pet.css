@@ -1,0 +1,82 @@
+
+body {
+	background-color: #ffffff;
+	background-image: url("../images/gradientblue.jpg");
+	background-repeat: repeat-x;		
+}
+#wrapper{
+	background-color: #ffffff;
+	 width:80%;
+    margin: auto;  
+    color: #666666;  
+	font-family: Verdana, Arial, sans-serif;
+	text-align: justify;
+	box-shadow: 5px 10px black;
+   }
+h1 {
+	 color: #ffffff;   /* has to change to the given color  */
+	background-color: #000033;
+	line-height: 200%;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	font-family: Georgia,serif;
+}
+nav {
+	background-color: #90C7E3;
+	font-weight: bold;
+	padding: 5px 5px 5px 30px;
+	white-space: pre-line;
+
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: white;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia,serif;
+	padding-left: 20px;
+	padding-right:10px;
+}
+footer{
+	text-align: center;
+	font-size: 0.70em;
+	padding-bottom: 5px;
+}
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+address{
+		padding-left: 20px;
+		font-style: normal;
+
+}
+.row{
+	display: flex;
+}
+.leftcolumn{
+	flex: 0 0 25%;
+
+}
+.rightcolumn{
+	flex: 0 0 75%;
+}
+.container{
+	padding-left: 20px;
+	border-spacing: 0px;
+}
+
+td{
+	padding-right: 80px;
+}
+
+
+
